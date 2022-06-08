@@ -1,0 +1,17 @@
+@media all and (max-width:767px){
+    .img-slider-responsive{
+        height: 250px;
+        object-fit: cover;
+
+    }
+    
+} 
+.cartas{
+    filter: grayscale(60%);
+}
+.cartas:hover{
+filter: grayscale(10%);
+transition: 700ms;
+}
+
+

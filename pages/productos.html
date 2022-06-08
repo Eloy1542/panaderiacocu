@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="pagina panaderia cocu" />
+    <meta name="keywords" content="panaderia,practica,bootstrap,comida" />
+    <meta name="author" content="Eloy Pintos" />
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>Panaderia COCU</title>
+  </head>
+
+  <body>
+    <header>
+      <section> 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container d-lg-flex">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="Logo panaderia koku"
+              width="90px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" flex-lg-grow-0 navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link "
+                  
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    </header>
+    <main class="container my-5">
+      <h1 class="display-1 text-center">Galeria de Productos</h1>
+      <hr />
+      <section class="row">
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              class="card-img-top"
+              alt="medialuna"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Medialuna <span class="badge bg-warning text-black rounded-pill">Nuevo</span>
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button
+                class="btn btn-primary"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#modalmedialuna"
+              >
+                Ver mas
+              </button>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/Brioche-larga-oscura_00059_portfolio1.jpg"
+              class="card-img-top"
+              alt="Brioche"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Brioche</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <a href="detalleproducto.html" class="btn btn-primary">Ver mas</a>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/Pan-de-miga_00195_portfolio1.jpg"
+              class="card-img-top"
+              alt="Pan de miga"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pan de Miga</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary" type="button" disabled>
+                Ver mas
+              </button>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/Panes-de-campo-corte_00162_portfolio1.jpg"
+              class="card-img-top"
+              alt="Pan de campo"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Panes de Campo</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary" type="button">Ver mas</button>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/Torta-de-chocolate_00098_portfolio.jpg"
+              class="card-img-top"
+              alt="Torta de chocolate"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Torta de Chocolate</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary" type="button">Ver mas</button>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/Pan-de-uva-corte_00058_portfolio1.jpg"
+              class="card-img-top"
+              alt="pan de uva"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pan de Uva</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary" type="button">Ver mas</button>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/pan.jpg"
+              class="card-img-top"
+              alt="Pan"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pan</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary" type="button">Ver mas</button>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/Paris-Brest_00140_portfolio.jpg"
+              class="card-img-top"
+              alt="Paris brest"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Paris Brest</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary" type="button">Ver mas</button>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/Panes-negros-corte_00170_portfolio1.jpg"
+              class="card-img-top"
+              alt="Panes negros"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Panes negros</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary" type="button">Ver mas</button>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-sm-12 col-md-4 col-lg-3 my-3">
+          <div class="card">
+            <img
+              src="../img/productos/pan2.jpg"
+              class="card-img-top"
+              alt="Pan 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pan 2</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="btn btn-primary" type="button">Ver mas</button>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="d-flex justify-content-center mt-5">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="productos.html">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- modal card medialunas -->
+      <div
+        class="modal fade"
+        id="modalmedialuna"
+        tabindex="-1"
+        aria-labelledby="modalmedialunaLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalmedialunaLabel">
+                Producto Medialuna
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                class="w-100"
+                src="../img/productos/Croissant_00018_portfolio1.jpg"
+                alt="medialuna"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                eligendi officiis inventore, pariatur eaque consectetur
+                voluptates totam excepturi? Dolorum aliquam quae voluptas soluta
+                dignissimos ad nam adipisci, temporibus alias suscipit similique
+                aliquid labore, repudiandae distinctio reiciendis, pariatur
+                mollitia quis numquam ut sint fugit voluptate! Molestiae
+                doloribus atque possimus nam itaque voluptas exercitationem
+                praesentium eveniet architecto inventore, labore ipsam,
+                voluptatem at aliquam! Totam explicabo laudantium maxime
+                exercitationem, nihil vero ipsa. Veritatis?
+              </p>
+              <p>
+                Precio
+                <span class="fw-bold">$40 </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark my-4 py-4">
+      <section class="row">
+        <div
+          class="container text-center w-35 col-sm-12 col-md-4 col-lg-4"
+        >
+          <img width="90px" src="../img/cocu_logo-450.png " alt="logo cocu" />
+        </div>
+
+        <article class="text-white-50 col-sm-12 col-md-4 col-lg-4">
+          <aside class="container">
+            <h4>Horarios de Atencion:</h4>
+            <p>Lunes a viernes: 9hs-18hs</p>
+            <p>Sabados, Domingos y Feriados: 9hs-14hs</p>
+          </aside>
+        </article>
+        <article class="text-white-50 col-sm-12 col-md-4 col-lg-4">
+          <aside class="container">
+            <h4>Siguenos en nuestras redes:</h4>
+          </aside>
+        </article>
+      </section>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
